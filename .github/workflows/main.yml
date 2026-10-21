@@ -11,7 +11,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - run: ./build.sh
+      - run: bash build.sh
       - uses: actions/upload-artifact@v4
         with:
           name: pulsepvp-jar
